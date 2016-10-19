@@ -1,0 +1,7 @@
+
+vds_es_server:	a898516554c7c1a1850942259e19abeb69075e27,	(no tag),	release_20160715
+vds_vcms:	3e8d6595e6230dc7e5f7de02b2eeebaa73ba884b,	(no tag),	release_20160715
+vds_api:	6adb3472068330344679087b181eb21147fe7e99,	(no tag),	release_20160715
+vds_hrs:	3aa3f6304f14321db464fed1d95bce18f4723e00,	hrs串接scene_cut，_纯rabbitmq版本,	release_20160715
+vhost:	6d07e78180a1dd82def35d0e1c2c2af84bd2124d,	v1.0,	release
+orbit-si:	945820258ae3428391d7536a67ce474ad32c6dac,	(no tag),	master

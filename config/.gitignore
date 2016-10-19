@@ -1,0 +1,14 @@
+# ignore everything
+*
+
+# except the following
+!.gitignore
+!local/*
+!sg/*
+!sg2/*
+!bj/*
+!allinone.sh
+
+# even if they are in subdirectory
+!*/
+
