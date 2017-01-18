@@ -88,7 +88,7 @@ install_database() {
     appaddr=$6
 	  
 	Q0="DROP DATABASE IF EXISTS ${dbname} ;"
-	Q1="CREATE DATABASE ${dbname};"
+	Q1="CREATE DATABASE ${dbname} CHARACTER SET utf8 COLLATE utf8_general_ci;" 
 	Q2="GRANT USAGE ON *.* TO ${dbuser}@${appaddr} IDENTIFIED BY '"${dbpass}"';"
 	Q3="GRANT ALL PRIVILEGES ON ${dbname}.* TO ${dbuser}@${appaddr};"
 	Q4="FLUSH PRIVILEGES;"
